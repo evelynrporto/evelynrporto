@@ -8,7 +8,6 @@
   <img align="center" alt="Lyly-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
   <img align="center" alt="Lyly-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
   <img align="center" alt="Lyly-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-  <img align="center" alt="Lyly-Bootstrap" height="30" width="40" src="https://icongr.am/devicon/bootstrap-plain.svg?size=128&color=844cd6">
   <img align="center" alt="Lyly-Java" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg">
   <img align="center" alt="Lyly-PHP" height="30" width="40" src="https://icongr.am/devicon/php-plain.svg?size=128&color=7916ca">
   <img align="right" alt="Lyly-girl" src="https://cdn.discordapp.com/attachments/838949535446466571/877338527837351986/gif-lyah.gif">
