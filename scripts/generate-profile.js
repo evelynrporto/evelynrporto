@@ -259,7 +259,7 @@ function generateSVG(data) {
       return '#ffffff';
     };
     parts.push(`<line x1="0" y1="${y}" x2="${W}" y2="${y}" stroke="rgba(255,255,255,0.06)" stroke-width="1" />`);
-    parts.push(`<text x="${padX}" y="${y + 28}" font-family="${font}" font-size="11" font-weight="700" fill="rgba(155,140,210,0.6)" letter-spacing="3">ACTIVITY PULSE</text>`);
+    parts.push(`<text x="${padX}" y="${y + 28}" font-family="${font}" font-size="11" font-weight="800" fill="rgba(126,231,255,0.85)" letter-spacing="3">ACTIVITY PULSE</text>`);
     parts.push(`<text x="${W - padX}" y="${y + 28}" text-anchor="end" font-family="${font}" font-size="11" font-weight="700" fill="rgba(150,210,255,0.75)">${calendar.totalContributions} contributions</text>`);
     let cells = '';
     weeks.forEach((week, w) => {
