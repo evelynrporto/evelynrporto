@@ -188,6 +188,7 @@ function generateSVG(data) {
     ];
     const colW = W / items.length;
     parts.push(`<line x1="0" y1="${y}" x2="${W}" y2="${y}" stroke="rgba(255,255,255,0.06)" stroke-width="1" />`);
+    parts.push(`<ellipse cx="${W / 2}" cy="${y + statsH / 2}" rx="340" ry="95" fill="url(#g1)" />`);
     parts.push(`<rect id="scan-stats" x="-260" y="${y + statsH / 2 - 1}" width="260" height="2.5" fill="url(#scg)" />`);
     items.forEach((item, i) => {
       const cx = colW * i + colW / 2;
@@ -211,7 +212,8 @@ function generateSVG(data) {
     const barY = y + 42;
     const barW = W - padX * 2;
     parts.push(`<line x1="0" y1="${y}" x2="${W}" y2="${y}" stroke="rgba(255,255,255,0.06)" stroke-width="1" />`);
-    parts.push(`<text x="${padX}" y="${y + 26}" font-family="${font}" font-size="11" font-weight="700" fill="rgba(155,140,210,0.6)" letter-spacing="3">STACK ANALYTICS</text>`);
+    parts.push(`<ellipse cx="${W - 40}" cy="${y + stackH / 2}" rx="260" ry="120" fill="url(#g4)" opacity="0.55" />`);
+    parts.push(`<text x="${padX}" y="${y + 26}" font-family="${font}" font-size="11" font-weight="800" fill="rgba(126,231,255,0.85)" letter-spacing="3">STACK ANALYTICS</text>`);
     let bar = `<rect x="${padX}" y="${barY}" width="${barW}" height="10" rx="5" fill="rgba(255,255,255,0.06)" />`;
     let bx = padX;
     langs.forEach((l) => {
